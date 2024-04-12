@@ -54,27 +54,72 @@ h6,
   
 }
 
-.intermitente {
-  border: 1px solid black;
-  padding: 20px 20px;
-  box-shadow: 0px 0px 20px;
-  animation: infinite resplandorAnimation 2s;
 
-}
 
-@keyframes resplandorAnimation {
-
-  0%,
-  100% {
-    box-shadow: 0px 0px 20px;
-  }
-
-  50% {
-    box-shadow: 0px 0px 0px;
-
-  }
-
-}
+    body {
+      background: black;
+      margin: 0;
+    }
+  
+    .fake {
+      background-size: cover;
+      height: 100vh;
+      animation: image-generated 7s alternate infinite;
+    }
+  
+    @keyframes image-generated {
+      0% {
+        opacity: 0;
+      }
+  
+      10% {
+        opacity: 1;
+      }
+  
+      15% {
+        opacity: 1;
+      }
+  
+      20% {
+        opacity: 0;
+      }
+  
+      23% {
+        opacity: 1;
+      }
+  
+      30% {
+        opacity: 1;
+      }
+  
+      40% {
+        opacity: 1;
+      }
+  
+      50% {
+        opacity: 0;
+      }
+  
+      60% {
+        opacity: 1;
+      }
+  
+      70% {
+        opacity: 0;
+      }
+  
+      80% {
+        opacity: 1;
+      }
+  
+      90% {
+        opacity: 0;
+      }
+  
+      100% {
+        opacity: 1;
+      }
+    }
 
 #header .logo h1 a,
 #header .logo h1 a:hover {
