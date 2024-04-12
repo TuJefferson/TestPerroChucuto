@@ -64,7 +64,7 @@ h6,
     .fake {
       background-size: cover;
       height: 100vh;
-      animation: image-generated 7s alternate infinite;
+      animation: image-generated 22s alternate infinite;
     }
   
     @keyframes image-generated {
